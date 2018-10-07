@@ -112,6 +112,6 @@ void app_main()
     // Convert reading to a Total Disolved Solids (TDS) value
     //expose_vref();
     config_pins();
-    ESP_LOGI(TDS, "Main: sampleDelay = %f", sampleDelay);
+    // Start TDS Task
     xTaskCreate(tds_task, "tds_task", 2048, NULL, 5, NULL);
 }
