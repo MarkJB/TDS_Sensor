@@ -1,6 +1,6 @@
-# DFRobot Gravity TDS Sensor
+# DFRobot Gravity TDS Sensor for ESP32
 
-FreeRTOS task to read the DFRobot Gravity TDS sensor.
+FreeRTOS task to read the DFRobot Gravity TDS sensor on an ESP32.
 
 Mark Benson 2018
 Licence - MIT or whatever is used for the rest of this project!
